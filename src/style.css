@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Custom font */
+  @font-face {
+    font-family: "Ageo-bold";
+    src: url("/public/font/AgeoTrial-Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Ageo-regular";
+    src: url("/public/font/AgeoTrial-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Ageo-medium";
+    src: url("/public/font/AgeoTrial-Medium.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Ageo-heavy";
+    src: url("/public/font/AgeoTrial-Heavy.ttf") format("truetype");
+  }
+
+  /* Custom colors */
+  @theme {
+    --color-primary: #ff6600;
+    --color-black-custom: #0b1b35;
+  }
+
+  /* Custom css */
+  h1 {
+    font-family: "Ageo-heavy", sans-serif;
+  }
+
+  h2 {
+    font-family: "Ageo-bold", sans-serif;
+  }
+}
