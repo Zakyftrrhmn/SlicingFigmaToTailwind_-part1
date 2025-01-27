@@ -19,11 +19,6 @@
     />
   </head>
   <body>
-    <!-- Test Effect -->
-    <div
-      class="absolute left-[-400px] top-[-100%] z-[-100] opacity-10 rounded-full w-[1000px] h-[1000px] bg-amber-400"
-    ></div>
-
     <!-- Navbar -->
     <nav class="flex justify-between pt-10 px-[10%] items-center">
       <div>
@@ -452,12 +447,40 @@
       </div>
     </section>
 
+    <!-- Footer -->
+    <footer class="py-15 md:py-20 px-[10%] overflow-x-hidden">
+      <div
+        class="flex flex-col lg:flex-row gap-4 items-center md:justify-between"
+      >
+        <div class="flex gap-10">
+          <img src="./public/img/Logo.svg" class="max-w-18" alt="" />
+          <p class="text-xs lg:text-base">
+            © 2020 <span class="font-semibold text-primary">Epixelab</span>. All
+            rights reserved.
+          </p>
+        </div>
+        <div>
+          <ul
+            class="flex gap-5 lg:gap-10 *:hover:text-primary *:hover:underline text-sm"
+          >
+            <li><a href="">Portolio</a></li>
+            <li><a href="">How it works</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Login</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="w-full h-1 bg-gray-200 mt-10 rounded-full"></div>
+
+      <p class="text-gray-400 text-sm lg:text-base mt-10 text-justify">
+        Startup Framework contains components and complex blocks which can
+        easily be integrated into almost any design.
+      </p>
+    </footer>
     <br />
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <!-- End -->
   </body>
 </html>
