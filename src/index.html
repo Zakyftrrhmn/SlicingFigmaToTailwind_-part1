@@ -12,6 +12,60 @@
     />
     <!-- Style.css -->
     <link href="./public/output.css" rel="stylesheet" />
+    <!-- BoxIcon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
-  <body class=""></body>
+  <body>
+    <!-- Navbar -->
+    <nav class="flex justify-between py-10 px-[10%] items-center">
+      <div>
+        <img
+          src="./public/img/Logo.svg"
+          class="w-[100px] lg:w-[280px]"
+          alt=""
+        />
+      </div>
+      <ul
+        class="absolute bottom-0 left-0 flex justify-between bg-[#E8E8E8] w-full px-[10%] py-4 lg:py-0 rounded-t-2xl lg:relative lg:bottom-auto lg:left-auto lg:bg-transparent"
+      >
+        <li class="hover:text-primary hover:font-semibold">
+          <a
+            href="#"
+            class="flex flex-col lg:flex-row items-center gap-1 text-sm"
+            ><i class="text-xl bx bx-home"></i>Home</a
+          >
+        </li>
+        <li class="hover:text-primary hover:font-semibold">
+          <a
+            href="#"
+            class="flex flex-col lg:flex-row items-center gap-1 text-sm"
+            ><i class="text-xl bx bx-info-circle"></i>About Us</a
+          >
+        </li>
+        <li class="hover:text-primary hover:font-semibold">
+          <a
+            href="#"
+            class="flex flex-col lg:flex-row items-center gap-1 text-sm"
+            ><i class="text-xl bx bx-phone"></i>Our App</a
+          >
+        </li>
+        <li class="hover:text-primary hover:font-semibold">
+          <a
+            href="#"
+            class="flex flex-col lg:flex-row items-center gap-1 text-sm"
+            ><i class="text-xl bx bx-envelope lg:hidden"></i>Contact</a
+          >
+        </li>
+      </ul>
+      <div class="flex gap-4 lg:gap-8 items-center">
+        <button>Login</button>
+        <button class="bg-primary text-sm text-white rounded-lg px-4 py-2">
+          Daftar
+        </button>
+      </div>
+    </nav>
+  </body>
 </html>
