@@ -20,7 +20,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="flex justify-between py-10 px-[10%] items-center">
+    <nav class="flex justify-between pt-10 px-[10%] items-center">
       <div>
         <img
           src="./public/img/Logo.svg"
@@ -29,7 +29,7 @@
         />
       </div>
       <ul
-        class="absolute bottom-0 left-0 flex justify-between bg-[#E8E8E8] w-full px-[10%] py-4 lg:py-0 rounded-t-2xl lg:relative lg:bottom-auto lg:left-auto lg:bg-transparent"
+        class="absolute bottom-0 left-0 flex justify-between bg-[#E8E8E8] w-full px-[10%] py-4 lg:py-0 rounded-t-2xl lg:relative lg:bottom-auto lg:left-auto lg:bg-transparent fixed"
       >
         <li class="hover:text-primary hover:font-semibold">
           <a
@@ -60,12 +60,47 @@
           >
         </li>
       </ul>
-      <div class="flex gap-4 lg:gap-8 items-center">
-        <button>Login</button>
-        <button class="bg-primary text-sm text-white rounded-lg px-4 py-2">
+      <div class="flex gap-4 lg:gap-6 items-center">
+        <button class="cursor-pointer">Login</button>
+        <button
+          class="bg-primary text-sm text-white rounded-lg px-4 py-2 hover:bg-amber-600 cursor-pointer"
+        >
           Daftar
         </button>
       </div>
     </nav>
+
+    <!-- Hero Section -->
+    <section class="py-5 px-[10%]">
+      <div class="grid grid-cols-12 items-center">
+        <div class="col-span-12 lg:col-span-6">
+          <h1 class="lg:text-7xl text-6xl font-bold text-black-custom">
+            We boost growth for your statup business
+          </h1>
+          <p class="text-base text-black-custom mt-3">
+            Our goal is top at the heart of creativity services industry as a
+            digital creator. In has a after comment
+          </p>
+          <div class="mt-7 flex gap-4">
+            <button
+              class="bg-primary text-sm text-white rounded-lg px-4 py-2 cursor-pointer hover:bg-amber-600"
+            >
+              Get Started
+            </button>
+            <button class="flex gap-2 items-center cursor-pointer">
+              <img src="./public/img/Play-Button.svg" class="w-6" alt="" />
+              <p>Learn More</p>
+            </button>
+          </div>
+        </div>
+        <div class="col-span-12 lg:col-span-6 mt-4">
+          <img
+            src="./public/img/Hero-Section.png"
+            class="max-w-full"
+            alt="Section Hero"
+          />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
