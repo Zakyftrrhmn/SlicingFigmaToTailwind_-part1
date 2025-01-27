@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- Data Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Style.css -->
     <link href="./public/output.css" rel="stylesheet" />
     <!-- BoxIcon -->
@@ -20,7 +22,11 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="flex justify-between pt-10 px-[10%] items-center">
+    <nav
+      class="flex justify-between pt-10 px-[10%] items-center"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
       <div>
         <img
           src="./public/img/Logo.svg"
@@ -73,7 +79,11 @@
     <!-- Hero Section -->
     <section class="py-5 px-[10%]">
       <div class="grid grid-cols-12 items-center">
-        <div class="col-span-12 lg:col-span-6">
+        <div
+          class="col-span-12 lg:col-span-6"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <h1 class="lg:text-7xl text-6xl font-bold text-black-custom">
             We boost growth for your statup business
           </h1>
@@ -93,7 +103,11 @@
             </button>
           </div>
         </div>
-        <div class="col-span-12 lg:col-span-6 mt-4">
+        <div
+          class="col-span-12 lg:col-span-6 mt-4"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <img
             src="./public/img/Hero-Section.png"
             class="max-w-full"
@@ -105,7 +119,7 @@
 
     <!-- Our Vison & Our Goal -->
     <section class="py-5 md:py-20 px-[10%] font-Ageo">
-      <div class="text-center">
+      <div class="text-center" data-aos="fade-down" data-aos-duration="1000">
         <p
           class="font-bold text-black-custom tracking-[3px] text-sm opacity-50 uppercase"
         >
@@ -121,6 +135,8 @@
         <!-- Card 1 -->
         <div
           class="col-span-12 md:col-span-6 lg:col-span-4 flex flex-col items-center text-center rounded-xl py-8 px-10 shadow-xl border border-gray-100"
+          data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <img src="./public/img/Activity.svg" class="max-w-16" alt="" />
           <div class="mt-10 flex flex-col gap-4">
@@ -143,6 +159,8 @@
         <!-- Card 2 -->
         <div
           class="col-span-12 md:col-span-6 lg:col-span-4 flex flex-col items-center text-center rounded-xl py-8 px-10 shadow-xl border border-gray-100"
+          data-aos="fade-up"
+          data-aos-duration="1200"
         >
           <img src="./public/img/Video.svg" class="w-16 max-w-16" alt="" />
           <div class="mt-10 flex flex-col gap-4">
@@ -165,6 +183,8 @@
         <!-- Card 3 -->
         <div
           class="col-span-12 md:col-span-6 lg:col-span-4 flex flex-col items-center text-center rounded-xl py-8 px-10 shadow-xl border border-gray-100"
+          data-aos="fade-up"
+          data-aos-duration="1400"
         >
           <img src="./public/img/Chart.svg" class="max-w-16" alt="" />
           <div class="mt-10 flex flex-col gap-4">
@@ -191,6 +211,8 @@
       <div class="grid grid-cols-12 gap-4">
         <div
           class="col-span-12 md:col-span-3 my-5 md:flex md:flex-col md:justify-between"
+          data-aos="fade-right"
+          data-aos-duration="1000"
         >
           <div class="mb-3">
             <h5 class="text-xl font-medium text-black-custom">
@@ -208,7 +230,11 @@
           </button>
         </div>
         <div class="md:col-span-2"></div>
-        <div class="col-span-12 md:col-span-7">
+        <div
+          class="col-span-12 md:col-span-7"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <img src="./public/img/Blocks-section.png" class="w-full" alt="" />
         </div>
       </div>
@@ -216,7 +242,7 @@
 
     <!-- Testimonials -->
     <section class="py-5 md:py-20 px-[10%] md:px-[15%]">
-      <div class="text-center">
+      <div class="text-center" data-aos="fade-down" data-aos-duration="1000">
         <p
           class="font-bold text-black-custom tracking-[3px] text-sm opacity-50 uppercase"
         >
@@ -228,6 +254,8 @@
       </div>
       <div
         class="grid grid-cols-12 mt-20 gap-y-10 md:gap-15 items-center justify-center"
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
         <!-- Testi 1 -->
         <div
@@ -301,7 +329,7 @@
 
     <!-- Our Team -->
     <section class="py-5 md:py-20 px-[10%]">
-      <div class="text-center">
+      <div class="text-center" data-aos="fade-down" data-aos-duration="1000">
         <p
           class="font-bold text-black-custom tracking-[3px] text-sm opacity-50 uppercase"
         >
@@ -312,7 +340,11 @@
         </h3>
       </div>
 
-      <div class="grid grid-cols-12 mt-20 gap-y-10 md:gap-x-15">
+      <div
+        class="grid grid-cols-12 mt-20 gap-y-10 md:gap-x-15"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <!-- Team 1 -->
         <div
           class="col-span-12 md:col-span-6 lg:col-span-4 md:col-span-6 flex gap-5 border border-gray-200 shadow-xl rounded-2xl items-center flex-col py-12 overflow-hidden"
@@ -408,7 +440,7 @@
 
     <!-- Subscribe Our Newsleter -->
     <section class="py-5 md:py-20 px-[10%]">
-      <div class="text-center">
+      <div class="text-center" data-aos="fade-down" data-aos-duration="1000">
         <p
           class="font-bold text-black-custom tracking-[3px] text-sm opacity-50 uppercase"
         >
@@ -419,10 +451,18 @@
         </h3>
       </div>
       <div class="grid grid-cols-12 mt-20 items-center">
-        <div class="col-span-12 md:col-span-5 items-center justify-center">
+        <div
+          class="col-span-12 md:col-span-5 items-center justify-center"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <img src="./public/img/inbox.svg" class="w-full" alt="" />
         </div>
-        <div class="col-span-12 md:col-span-7 flex flex-col gap-10">
+        <div
+          class="col-span-12 md:col-span-7 flex flex-col gap-10"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <div class="flex flex-col gap-5">
             <p class="text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -448,7 +488,11 @@
     </section>
 
     <!-- Footer -->
-    <footer class="py-15 md:py-20 px-[10%] overflow-x-hidden">
+    <footer
+      class="py-15 md:py-20 px-[10%] overflow-x-hidden"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
       <div
         class="flex flex-col lg:flex-row gap-4 items-center md:justify-between"
       >
@@ -482,5 +526,11 @@
     <br />
     <br />
     <!-- End -->
+
+    <!-- Data Aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
